@@ -330,7 +330,7 @@
       const { ctx, W, H } = this;
       ctx.save();
       ctx.globalAlpha = alpha * 0.9;
-      ctx.fillStyle = '#fff';
+      ctx.fillStyle = '#3b1f5c';
       ctx.textAlign = 'center';
       ctx.font = `600 ${clamp(W * 0.05, 16, 26)}px Rubik, Nunito, sans-serif`;
       ctx.fillText('Лови гроші! 💸', W / 2, H * 0.36);
